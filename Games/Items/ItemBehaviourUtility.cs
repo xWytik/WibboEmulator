@@ -253,6 +253,9 @@ internal static class ItemBehaviourUtility
                     case InteractionType.BAG_PORCELAINE:
                         lotName = "un sachet Porcelaine";
                         break;
+                    case InteractionType.BAG_SABLE:
+                        lotName = "un sachet Sable";
+                        break;
                 }
 
                 message.WriteInteger((int)ObjectDataKey.MAP_KEY);
